@@ -12,7 +12,7 @@ run_worker_first = true
 [[d1_databases]]
 binding = "DB"
 database_name = "calcplus"
-database_id = "COLE-O-ID-DO-BANCO-AQUI"
+database_id = "SEU-ID-AQUI"
 
 [vars]
 DL_QUESTION = o ataque mais forte:
