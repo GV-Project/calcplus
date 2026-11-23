@@ -1,0 +1,20 @@
+name = "calcplus"
+main = "src/worker.js"
+compatibility_date = "2025-09-01"
+
+# O APK fica em public/calcplus.apk. run_worker_first impede que ele seja
+# baixado direto: só o Worker o entrega, depois da pergunta secreta.
+[assets]
+directory = "./public"
+binding = "ASSETS"
+run_worker_first = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "calcplus"
+database_id = "COLE-O-ID-DO-BANCO-AQUI"
+
+[vars]
+DL_QUESTION = o ataque mais forte:
+# Suas redes (aparecem na aba "Redes" do app). Mantenha em UMA linha de JSON.
+LINKS = https://www.instagram.com/millyex__?knvt=MTBvMHZpNmxhcDJ3aQ==
