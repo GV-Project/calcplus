@@ -15,6 +15,6 @@ database_name = "calcplus"
 database_id = "SEU-ID-AQUI"
 
 [vars]
-DL_QUESTION = o ataque mais forte:
+DL_QUESTION = "o ataque mais forte:"
 # Suas redes (aparecem na aba "Redes" do app). Mantenha em UMA linha de JSON.
 LINKS = https://www.instagram.com/millyex__?knvt=MTBvMHZpNmxhcDJ3aQ==
